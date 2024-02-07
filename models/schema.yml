@@ -2,7 +2,8 @@ version: 2
 
 sources:
   - name: raw
-    schema: gz_raw_data
+    schema: dbt_dataset
+
     tables:
       - name: product
         description: greenweez raw data
